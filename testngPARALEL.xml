@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing ">
+    <test name="Regression"  parallel = "classes">
+        <classes>
+            <class name="tests.Day5"/>
+            <class name="tests.Day1"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+        <!-- https://www.toolsqa.com/testng/testng-parallel-execution/ -->
